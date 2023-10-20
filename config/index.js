@@ -13,7 +13,7 @@ const config = {
             port: process.env.DB_PORT || 5432,
             user: process.env.DB_USER || 'root',
             pass: process.env.DB_PASS || 'D3345123Galsjd',
-            name: process.env.DB_NAME || 'kubex'
+            name: process.env.DB_NAME || 'auth'
         },
         auth: {
             secret: process.env.AUTH_SECRET || 'aoisjioqwjdoqwijdqwodj',
