@@ -9,11 +9,11 @@ const config = {
         port: process.env.PORT || 3000,
 
         db: {
-            host: process.env.DB_HOST || 'postgres',
+            host: process.env.DB_HOST || 'localhost',
             port: process.env.DB_PORT || 5432,
-            user: process.env.DB_USER || 'root',
-            pass: process.env.DB_PASS || 'D3345123Galsjd',
-            name: process.env.DB_NAME || 'auth'
+            user: process.env.DB_USER || 'postgres',
+            pass: process.env.DB_PASS || 'dUdE8bbzztGsGT73pts8cNSub2NUq7xq',
+            name: process.env.DB_NAME || 'skysafe'
         },
         auth: {
             secret: process.env.AUTH_SECRET || 'aoisjioqwjdoqwijdqwodj',
