@@ -1,5 +1,5 @@
 require('dotenv').config({
-    path: './roulette/.env'
+    path: './config/.env'
 });
 
 const config = {
